@@ -1,0 +1,23 @@
+.full-image {
+  width: 800px;
+  height: 480px;
+  background-size: cover;
+  background-image: url(./media/nature-g2b9e6f356_1920.jpg);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  background-color: rgb(55, 55, 55);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 5px;
+}
+
+.center-image {
+  width: 800px;
+  height: 500px;
+  background-size: 300px 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./media/panther-g0366d6c25_640.png);
+}

@@ -8,4 +8,14 @@ background-color: green config color del fondo
 font-family: Arial, Helvetica; config fuente del texto
 los border reciben varias propiedades
 border: 1px solid black
+
+background-color: define el color de fondo.
+background-image: define la imagen de fondo.
+background-position: define la ubicación de la imagen de fondo.
+background-repeat: define si se repite la imagen de fondo horizontal y verticalmente.
+background-attachment: define si la imagen se mantiene fija o se desplaza con la página.
+
+El orden en el que la propiedad background recibe los valores es: 
+background-color, background-image, background-position/background-size, 
+background-repeat y background-attachment.
 */
