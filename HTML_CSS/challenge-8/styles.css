@@ -1,0 +1,58 @@
+.container-blue {
+  height: 300px;
+  width: 300px;
+  background-color: #369999;
+  position: relative;
+}
+
+.box-brown {
+  height: 80px;
+  width: 80px;
+  background-color: #f5cb90;
+  position: absolute;
+  right: 0;
+  top: 80px;
+}
+
+.box-black {
+  height: 20px;
+  width: 20px;
+  background-color: #000;
+  position: absolute;
+  right: 0;
+  top: 24px;
+}
+
+.box-pink {
+  height: 15px;
+  width: 125px;
+  background-color: #f2b8e1;
+  position: absolute;
+  top: 220px;
+  right: 0;
+}
+
+.container-title {
+  text-align: center;
+  border: 2px dashed #0f1af2;
+  width: 400px;
+  position: absolute;
+  right: 60px;
+  top: 210px;
+}
+
+.big-box-black {
+  height: 600px;
+  width: 220px;
+  background-color: #000;
+  position: relative;
+}
+
+.box-red {
+  height: 35px;
+  width: 150px;
+  background-color: #fc0004;
+  position: relative;
+  left: 165px;
+  top: 250px;
+}
