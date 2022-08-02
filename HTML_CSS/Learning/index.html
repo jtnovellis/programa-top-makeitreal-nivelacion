@@ -39,6 +39,33 @@
       <tr>	Representa una fila en una tabla (table row)
       <th>	Representa una celda que es encabezado en una tabla (table head)
       <td>	Representa una celda de datos en una tabla (table data)
+
+      <form>	Agrupa a los demás elementos que conforman un formulario. Dentro de esta etiqueta se define a dónde y cómo enviar los datos capturados en los campos que agrupa. Sus atributos más importantes son action y method	
+      <form action="/registro" method="post"> campos del formulario
+      </form>
+      <input>	Permite a los usuarios entregar información o solicitar información que se encuentra en un servidor. Requiere un atributo type para definir el tipo de campo	
+      <input type="text" name="usuario" />
+      <label>	Permite asociar un texto que aparece en la interfaz de usuario con un campo específico del formulario	
+      <label for="edad"/>Edad</label>
+      <input type="text" id="edad" name="edad"/>
+      <textarea>	Permite al usuario escribir multiples líneas de texto.	
+      <label>
+        Comentario
+        <textarea name="comentario" rows="3" cols="20">
+          El aprendizaje con los cursos ha sido grandioso.
+          La experiencia ha sido maravillosa.
+        </textarea>
+      </label>
+      <select>	Permite al usuario seleccionar una opción de una lista desplegable	
+      <label>
+        Color
+        <select name="color">
+          <option value="" disabled selected>Selecciona un color</option>
+          <option value="red">Rojo</option>
+          <option value="orange">Naranja</option>
+          <option value="yellow">Amarillo</option>
+        </select>
+</label>
     -->
 </body>
 </html>

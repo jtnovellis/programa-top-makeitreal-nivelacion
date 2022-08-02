@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <form action="">
+    <div>
+      <label for="name">Nombre:</label>
+      <input type="text" name="name">
+    </div>
+
+    <div>
+      <label for="lastname">Apellido:</label>
+      <input type="text" name="lastname">
+    </div>
+
+    <div>
+      <label for="email">Correo:</label>
+      <input type="email" name="email" id="email">
+    </div>
+
+    <div>
+      <label for="color">Color:</label>
+      <select name="color" id="color-select">
+        <option value="">--Selecciona un color--</option>
+        <option value="rojo">Rojo</option>
+        <option value="naranja">Naranja</option>
+        <option value="amarillo">Amarillo</option>
+      </select>
+    </div>
+
+    <div>
+      <input type="radio" id="user-alla-s" name="radio-talla" value="talla-s">
+      <label for="user-alla-s">Talla S</label>
+      <input type="radio" id="user-alla-m" name="radio-talla" value="talla-m">
+      <label for="user-alla-m">Talla M</label>
+      <input type="radio" id="user-alla-l" name="radio-talla" value="talla-l">
+      <label for="user-alla-l">Talla L</label>
+    </div>
+
+    <div>
+      <label for="comentario">Comentario:</label>
+      <textarea name="comentario" id="" cols="40" rows="4"></textarea>
+    </div>
+    <div>
+      <button type="submit">Pedir</button>
+    </div>
+  </form>
+</body>
+</html>
