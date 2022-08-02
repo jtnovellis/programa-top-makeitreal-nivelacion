@@ -1,0 +1,40 @@
+.container-one {
+  background-color: #0e1140;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+.container-two {
+  height: 100px;
+  text-align: center;
+}
+
+.container-three {
+  background-color: #0e1140;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+
+p, a {
+  color: #fff;
+  position: relative;
+  top: 150px;
+}
+
+a:link {
+  color: rgb(255, 0, 0);
+}
+a:visited {
+  color: rgb(10, 10, 62);
+}
+a:hover {
+  color: rgb(243, 150, 150)
+}
