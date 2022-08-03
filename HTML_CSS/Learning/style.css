@@ -18,4 +18,9 @@ background-attachment: define si la imagen se mantiene fija o se desplaza con la
 El orden en el que la propiedad background recibe los valores es: 
 background-color, background-image, background-position/background-size, 
 background-repeat y background-attachment.
+
+Si el ancho de la ventana es menor a 768px corresponde a teléfonos inteligentes .
+Si es entre 768px y 992px corresponde a tabletas.
+Si es entre 992px y 1200px corresponde a computadores de escritorio.
+Si es mayor a 1200px corresponde a pantallas grandes, como monitores o televisores.
 */
