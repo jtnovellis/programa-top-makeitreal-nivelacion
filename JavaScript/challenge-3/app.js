@@ -6,20 +6,16 @@ const json = `[
 ]`;
 
 // Escribe tu solución acá
-
 const btn = document.querySelector('button');
-
 btn.addEventListener('click', () => {
   renderTable();
   renderData();
 });
-
 const renderTable = () => {
   const table = document.querySelector('.hide');
   table.classList.remove('hide');
   table.classList.add('show');
 }
-
 const renderData = () => {
   const arr = JSON.parse(json);
   for (let i = 0; i < arr.length; i++) {
